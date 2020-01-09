@@ -1,0 +1,192 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.container-fluid{
+	margin: 0px;
+	padding: 0px !important;
+}
+div{
+	float: left;
+	margin: 0px auto;
+}
+h6{
+	width: auto;
+}
+/**maindiv**/
+.maindiv{
+	width: 100%;
+	padding: 5px 0px 3px 15px;
+}
+/**box*/
+.box{
+	width: 220px;
+	margin: 10px 0px;
+	border-right: 1px solid #000000;
+}
+.box i{
+	margin-right: 10px;
+}
+.box .cross{
+	float: right;
+	margin-top: 0px;
+	font-weight: 400;
+}
+/**new-sec**/
+.maindiv .new-sec{
+	margin: 10px 0px;
+    margin-left: 15px;
+}
+/** tabdiv**/
+.tabdiv{
+	width: 100%;
+	background: #E8E8E8;
+	padding: 6px 0px 10px 0px;
+	border-bottom: 2px solid #BDBDBD;
+}
+.tabdiv .fa{
+	margin-left: 10px;
+	color: #6E6E6E;
+	font-size: 19px;
+}
+.tabdiv .fa-globe{
+	border:1px solid grey;
+	padding: 6px 5px 6px 10px;
+	margin-top: 8px;
+	background: white;
+	border-right-style: none;
+	border-radius: 3px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.tabdiv .search{
+	outline: none;
+	border:1px solid grey;
+	border-left-style: none;
+	margin-left:-4px;
+	padding: 6px 10px 3.5px 10px;
+	margin-top: -20px !important;
+	border-radius: 3px;
+	font-size: 18px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+
+}
+/** main**/
+.main{
+ width: 100%;
+}
+.main .right{
+	margin-top: 10px;
+	float: right;
+	margin-right: 30px;
+}
+.main .right span{
+	margin-right: 10px;
+}
+.main .right i{
+	margin-right: 10px;
+}
+.main .right button{
+	padding:5px 7px;
+	font-size: 12px;
+	background: #4281F3;
+	color: white;
+	outline: none;
+	border: 1px solid #4281F3;
+}
+.main .center{
+	width: 100%;
+	padding-left: 500px;
+}
+.main img{
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.main .search2{
+	outline: none;
+	border:1px solid grey;
+	margin-left: -5px;
+	padding: 4px 10px;
+	font-size: 18px;
+	z-index: 999;
+	width: 50%;
+	margin-left: 0px;
+	border: 1px solid #BDBDBD;
+}
+.main .btn1{
+	background: #E8E8E8;
+	margin-top: 15px;
+	padding:10px 20px;
+	outline: none;
+	font-size: 12px;
+	font-weight: 400;
+	border: 0px;
+	margin-left: 120px;
+}
+.main .btn2{
+	background: #E8E8E8;
+	margin-top: 15px;
+	padding:10px 20px;
+	outline: none;
+	font-size: 12px;
+	font-weight: 400;
+	border: 0px;
+	margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  /**maindiv**/
+.maindiv{
+	width: 100%;
+	padding: 5px 0px 3px 15px;
+}
+/**box*/
+.box{
+	width: 60%;
+	margin: 10px 0px;
+	border-right: 1px solid #000000;
+}
+.tabdiv .search{
+	outline: none;
+	width: 40% !important;
+	border:1px solid grey;
+	border-left-style: none;
+	margin-left:-4px;
+	padding: 6px 10px 3.5px 10px;
+	margin-top: -20px !important;
+	border-radius: 3px;
+	font-size: 18px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+
+}
+.main .center{
+	width: 100%;
+	padding-left: 0px;
+}
+.main img{
+	width: 200px;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.main .search2{
+	width: 80%;
+	margin-left: 40px;
+	border: 1px solid #BDBDBD;
+}
+.main .btn1{
+	margin-left: 50px;
+}
+.main .btn2{
+	background: #E8E8E8;
+	margin-top: 15px;
+	padding:10px 20px;
+	outline: none;
+	font-size: 12px;
+	font-weight: 400;
+	border: 0px;
+	margin-left: 10px;
+} 
+}
